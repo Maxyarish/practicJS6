@@ -1,0 +1,25 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border:1px solid #aaaa;
+  
+}
+.form >label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.form>label>input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    margin-top: 7px;
+    font-size: 1em;
+}
+form>.checkbox{
+    display: block;
+}
